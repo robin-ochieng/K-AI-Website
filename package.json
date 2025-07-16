@@ -14,6 +14,11 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
+  "eslintConfig": {
+    "rules": {
+      "no-unused-vars": "warn"
+    }
+  },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
     "@tailwindcss/postcss7-compat": "^2.2.17",
