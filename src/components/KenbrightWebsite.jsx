@@ -278,7 +278,11 @@ const KenbrightWebsite = () => {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto">
-              Transform your business with cutting-edge AI technology, innovative digital solutions, and comprehensive educational tools
+              Transform your business with <span className="text-yellow-300 font-semibold">cutting-edge AI</span> technology, 
+              <span className="text-yellow-300 font-semibold"> intelligent agents</span>, and 
+              <span className="text-yellow-300 font-semibold"> process automation solutions</span>. <br className="hidden sm:block" />
+              We build powerful <span className="text-yellow-300 font-semibold">AI agents</span>, automate workflows, and craft 
+              interactive training tools tailored for tomorrow’s enterprises.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <a href="#what-we-do" className="bg-white text-[#0137A6] px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-all duration-200 transform hover:scale-105 flex items-center justify-center gap-2 group">
@@ -406,7 +410,11 @@ const KenbrightWebsite = () => {
               <p className="text-gray-600 mb-6">
                 Master complex IFRS 17 concepts through an engaging, gamified learning experience. Test your knowledge, earn points, and track your progress.
               </p>
-              <a href="https://ifrs-17-training-game.vercel.app" className="inline-flex items-center gap-2 bg-[#0137A6] text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition-all duration-200 group shadow-lg hover:shadow-xl">
+              <a 
+                href="https://ifrs-17-training-game.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-[#0137A6] text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition-all duration-200 group shadow-lg hover:shadow-xl">
                 Play Now
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
@@ -456,6 +464,8 @@ const KenbrightWebsite = () => {
                   </p>
                   <a
                     href={module.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-[#0137A6] font-semibold hover:gap-4 transition-all duration-300 group/link"
                   >
                     Access Module
